@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="83026" started-at="2023-02-13T14:55:13 IST" finished-at="2023-02-13T14:56:36 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="83026" started-at="2023-02-13T14:55:13 IST" finished-at="2023-02-13T14:56:36 IST">
+      <class name="Nykaa.NykaaProject">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Nykaa.NykaaProject@5c072e3f]" name="setup" is-config="true" duration-ms="11914" started-at="2023-02-13T14:55:13 IST" finished-at="2023-02-13T14:55:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickSkinAndFaceCream()[pri:0, instance:Nykaa.NykaaProject@5c072e3f]" name="clickSkinAndFaceCream" duration-ms="70575" started-at="2023-02-13T14:55:25 IST" finished-at="2023-02-13T14:56:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSkinAndFaceCream -->
+        <test-method status="PASS" signature="closeWindow()[pri:0, instance:Nykaa.NykaaProject@5c072e3f]" name="closeWindow" is-config="true" duration-ms="3" started-at="2023-02-13T14:56:36 IST" finished-at="2023-02-13T14:56:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- Nykaa.NykaaProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

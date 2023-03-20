@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="2" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="testNg.FirefoxBrowser">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getText2"/>
+          <include name="firefoxSetup"/>
+          <include name="getText"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testNg.FirefoxBrowser -->
+      <class name="testNg.Annotation">
+        <methods>
+          <include name="getText"/>
+          <include name="launchBrowser"/>
+          <include name="getText2"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNg.Annotation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

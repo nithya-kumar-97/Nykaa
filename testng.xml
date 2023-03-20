@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="2" parallel="methods" name="Test">
+	  <groups>
+		  <run>
+			  <include name="Smoke"></include>
+			  <include name="Regression"></include>
+			  <include name="Regression and Smoke"></include>
+			    <include name="parameter"></include>
+			  </run>
+			    </groups>
+    <classes>
+      
+     
+      <class name="testNg.Attributes"/>
+      <class name="testNg.FirefoxBrowser"/>
+      <class name="testNg.Attributes"/>
+      <parameter name="name" value="First Method"></parameter>
+       <parameter name="name1" value="Second Method"></parameter>
+    </classes>
+		  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
